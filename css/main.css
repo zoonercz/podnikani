@@ -1,0 +1,86 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  color:#777;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+h1{
+    font-size: 25px;
+    margin:0;
+}
+
+.container {
+  width: auto;
+  max-width: 973px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#headingStrip{
+  height: 70px;
+  line-height: 50px;
+  background-color: #63C6AE;  
+  color:white;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 20px 0;
+  margin-top: -1px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+   background-color: white;
+   color:#63C6AE;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+   color:#63C6AE; 
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+   background-color: white;
+   color:#63C6AE;
+}
+
+
+
+.navbar-default {
+    background-color: white;
+    border: none;
+    margin: 1px;
+}
+
+
+.footer{
+    background-color: #262626;
+}
+
+.contentDiv{
+    display: none;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
